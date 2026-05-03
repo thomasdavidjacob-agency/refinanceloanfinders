@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refinance Loan Finders | Find Your Best Refinance Rate in Oregon</title>
+  <meta name="description" content="Find your best Oregon refinance loan. We compare rate & term, cash-out, and VA IRRRL options to find the best fit for your situation. Licensed Oregon mortgage professional." />
+  <link rel="canonical" href="https://refinanceloanfinders.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #0D1B2A; --navy-mid: #112236; --navy-card: #0F2030;
+      --gold: #C8913A; --gold-light: #dba84f;
+      --gold-dim: rgba(200,145,58,0.18); --gold-border: rgba(200,145,58,0.28);
+      --text: #e2e8f0; --text-muted: #94a3b8; --text-dim: #64748b;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--navy); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; border-bottom: 1px solid var(--gold-border); background: rgba(13,27,42,0.95); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: #fff; letter-spacing: 0.02em; }
+    .logo span { color: var(--gold); }
+    .header-tag { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); }
+    .hero { display: grid; grid-template-columns: 1fr 480px; gap: 64px; align-items: center; max-width: 1200px; margin: 0 auto; padding: 80px 48px 96px; }
+    .fade-up { opacity: 0; transform: translateY(28px); animation: fadeUp 0.7s ease forwards; }
+    .fade-up:nth-child(1) { animation-delay: 0.1s; } .fade-up:nth-child(2) { animation-delay: 0.22s; } .fade-up:nth-child(3) { animation-delay: 0.34s; } .fade-up:nth-child(4) { animation-delay: 0.46s; } .fade-up:nth-child(5) { animation-delay: 0.58s; } .fade-up:nth-child(6) { animation-delay: 0.7s; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .form-col { opacity: 0; transform: translateY(24px); animation: fadeUp 0.7s ease 0.3s forwards; }
+    .eyebrow { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; }
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(42px,5vw,60px); font-weight: 700; line-height: 1.12; color: #fff; margin-bottom: 24px; }
+    h1 em { font-style: italic; color: var(--gold); }
+    .subheadline { font-size: 17px; color: var(--text-muted); line-height: 1.7; max-width: 480px; margin-bottom: 36px; }
+    .pills { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 48px; }
+    .pill { padding: 7px 16px; border: 1px solid var(--gold-border); border-radius: 100px; font-size: 13px; font-weight: 500; color: var(--gold); background: var(--gold-dim); letter-spacing: 0.02em; }
+    .stats { display: flex; gap: 40px; flex-wrap: wrap; }
+    .stat-value { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px; }
+    .stat-label { font-size: 12px; font-weight: 500; color: var(--text-dim); letter-spacing: 0.06em; text-transform: uppercase; }
+    @keyframes riseUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .get-started-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--gold); color: var(--navy); border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.9rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; margin-bottom: 36px; animation: riseUp 0.6s ease 0.58s both; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; }
+    .get-started-btn:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(200,145,58,0.35); }
+    .form-card { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 16px; padding: 40px 36px; box-shadow: 0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(200,145,58,0.08); }
+    .form-title { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .form-subtitle { font-size: 13px; color: var(--text-dim); margin-bottom: 28px; letter-spacing: 0.02em; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-group { display: flex; flex-direction: column; margin-bottom: 16px; }
+    .form-group label { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 7px; }
+    .form-group input, .form-group select { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 12px 14px; font-size: 15px; color: #fff; font-family: 'DM Sans', sans-serif; outline: none; transition: border-color 0.2s, box-shadow 0.2s; appearance: none; -webkit-appearance: none; }
+    .form-group select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23C8913A' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; cursor: pointer; }
+    .form-group select option { background: var(--navy); color: #fff; }
+    .form-group input::placeholder { color: var(--text-dim); }
+    .form-group input:focus, .form-group select:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(200,145,58,0.15); }
+    .submit-btn { width: 100%; padding: 15px 24px; background: var(--gold); color: #0D1B2A; border: none; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0.04em; cursor: pointer; transition: background 0.2s, transform 0.15s; margin-top: 8px; }
+    .submit-btn:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .submit-btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
+    .form-disclaimer { font-size: 11px; color: var(--text-dim); text-align: center; margin-top: 14px; line-height: 1.5; }
+    .success-message { display: none; text-align: center; padding: 20px 0; }
+    .success-icon { width: 56px; height: 56px; background: var(--gold-dim); border: 2px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+    .success-icon svg { color: var(--gold); }
+    .success-title { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+    .success-text { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
+    .programs { max-width: 1200px; margin: 0 auto; padding: 80px 48px; border-top: 1px solid var(--gold-border); }
+    .section-label { font-size: 11px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px,4vw,44px); font-weight: 700; color: #fff; margin-bottom: 48px; }
+    .programs-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+    .loan-card { background: var(--navy-card); border: 1px solid var(--gold-border); border-radius: 14px; padding: 32px 28px; transition: border-color 0.2s, transform 0.2s; display: block; text-decoration: none; }
+    .loan-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+    .card-icon { font-size: 28px; margin-bottom: 18px; display: block; }
+    .card-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .card-body { font-size: 14px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px; }
+    .card-highlight { font-size: 13px; font-weight: 600; color: var(--gold); padding: 8px 14px; background: var(--gold-dim); border-radius: 6px; display: inline-block; }
+    .card-learn { display: flex; align-items: center; gap: 6px; margin-top: 20px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); border-bottom: 1px solid rgba(200,145,58,0.3); padding-bottom: 2px; transition: gap 0.2s, border-color 0.2s; }
+    .loan-card:hover .card-learn { gap: 10px; border-color: var(--gold); }
+    footer { border-top: 1px solid var(--gold-border); padding: 28px 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 700; color: #fff; }
+    .footer-brand span { color: var(--gold); }
+    .footer-legal { font-size: 12px; color: var(--text-dim); text-align: right; line-height: 1.6; }
+    @media (max-width: 920px) {
+      header { padding: 18px 24px; flex-direction: column; gap: 6px; text-align: center; }
+      .hero { grid-template-columns: 1fr; gap: 48px; padding: 48px 24px 64px; }
+      .stats { gap: 28px; } .form-col { order: -1; }
+      .programs { padding: 60px 24px; } .programs-grid { grid-template-columns: 1fr; gap: 16px; }
+      footer { padding: 24px; flex-direction: column; text-align: center; } .footer-legal { text-align: center; }
+    }
+    @media (max-width: 480px) { .form-row { grid-template-columns: 1fr; } .form-card { padding: 28px 22px; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Refinance Loan <span>Finders</span></div>
+    <div class="header-tag">Find Your Best Refinance Rate in Oregon</div>
+  </header>
+
+  <section class="hero">
+    <div class="copy-col">
+      <div class="eyebrow fade-up">Oregon &middot; Find Your Best Refi Rate</div>
+      <h1 class="fade-up">
+        <em>Find Your Best</em><br />
+        Oregon Refinance Loan.
+      </h1>
+      <p class="subheadline fade-up">
+        Stop wondering if you could be paying less. I compare every refinance option — rate &amp; term, cash-out, and VA IRRRL — to find the best loan for your situation. Transparent guidance from a licensed Oregon mortgage professional.
+      </p>
+      <div class="pills fade-up">
+        <span class="pill">Rate &amp; Term Refi</span>
+        <span class="pill">Cash-Out Refi</span>
+        <span class="pill">VA IRRRL</span>
+        <span class="pill">Compare All Options</span>
+      </div>
+      <a href="/get-started.html" class="get-started-btn">Find My Best Refi Rate &rarr;</a>
+      <div class="stats fade-up">
+        <div class="stat-item">
+          <div class="stat-value">20+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">$0</div>
+          <div class="stat-label">Cost Options</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">Oregon</div>
+          <div class="stat-label">Refi Expert</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-col">
+      <div class="form-card">
+        <div id="form-wrap">
+          <div class="form-title">Get a Free Refi Analysis</div>
+          <div class="form-subtitle">No cost. No obligation. Fast response.</div>
+          <form id="lead-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(503) 555-0100" required />
+            </div>
+            <div class="form-group">
+              <label for="loanType">Refinance Type</label>
+              <select id="loanType" name="loanType" required>
+                <option value="" disabled selected>Select a refinance type</option>
+                <option value="Rate &amp; Term Refinance">Rate &amp; Term Refinance</option>
+                <option value="Cash-Out Refinance">Cash-Out Refinance</option>
+                <option value="VA IRRRL Streamline">VA IRRRL Streamline</option>
+                <option value="Not Sure">Not Sure</option>
+              </select>
+            </div>
+            <button type="submit" class="submit-btn" id="submit-btn">Find My Best Refi Rate &rarr;</button>
+          </form>
+          <p class="form-disclaimer">Your information is private and will never be sold or shared.</p>
+        </div>
+        <div class="success-message" id="success-message">
+          <div class="success-icon">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div class="success-title">You're All Set!</div>
+          <p class="success-text">Thank you — your request has been received. I'll be in touch shortly with your personalized refinance comparison.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="programs">
+    <p class="section-label">Refinance Programs</p>
+    <h2 class="section-title">Find the Right Refi for You</h2>
+    <div class="programs-grid">
+      <a href="/rate-term-refi.html" class="loan-card">
+        <div class="card-icon">📉</div>
+        <div class="card-title">Rate &amp; Term Refi</div>
+        <p class="card-body">
+          Lower your interest rate, shorten your loan term, or both — without taking cash out. This is the most common refinance for homeowners looking to reduce their monthly payment or pay off their mortgage sooner.
+        </p>
+        <span class="card-highlight">Lower your monthly payment</span>
+        <span class="card-learn">Learn More →</span>
+      </a>
+      <a href="/cash-out-refi.html" class="loan-card">
+        <div class="card-icon">💵</div>
+        <div class="card-title">Cash-Out Refi</div>
+        <p class="card-body">
+          Access the equity you've built in your home. Use the cash for home improvements, debt consolidation, education, or anything else. Oregon homeowners have seen significant equity growth in recent years.
+        </p>
+        <span class="card-highlight">Access your home's equity</span>
+        <span class="card-learn">Learn More →</span>
+      </a>
+      <a href="/va-irrrl.html" class="loan-card">
+        <div class="card-icon">🎖</div>
+        <div class="card-title">VA IRRRL</div>
+        <p class="card-body">
+          The VA Interest Rate Reduction Refinance Loan (IRRRL) is the fastest and easiest way for veterans to lower their VA loan rate. Minimal paperwork, no appraisal required in most cases, and no out-of-pocket costs.
+        </p>
+        <span class="card-highlight">Streamlined for veterans</span>
+        <span class="card-learn">Learn More →</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-brand">Refinance Loan <span>Finders</span></div>
+    <div class="footer-legal">
+      Licensed Mortgage Loan Originator &middot; Oregon &middot; NMLS #1839449<br />
+      Mortgage Solutions Financial &middot; 900 Main Street, Suite 106, Oregon City, OR 97045 &middot; NMLS #61602<br />
+      <span style="font-size:10px;">Equal Housing Lender &copy;2026 Mortgage Solutions of Colorado, LLC., dba Mortgage Solutions Financial NMLS #61602. <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener" style="color:var(--text-dim);text-decoration:underline;">NMLSConsumerAccess.org</a> &middot; Not a commitment to lend.</span>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('lead-form')
+    const btn = document.getElementById('submit-btn')
+    const formWrap = document.getElementById('form-wrap')
+    const successMsg = document.getElementById('success-message')
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const firstName = document.getElementById('firstName').value.trim()
+      const lastName  = document.getElementById('lastName').value.trim()
+      const email     = document.getElementById('email').value.trim()
+      const phone     = document.getElementById('phone').value.trim()
+      const loanType  = document.getElementById('loanType').value
+      if (!firstName || !email || !phone || !loanType) { alert('Please fill in all required fields.'); return }
+      btn.disabled = true; btn.textContent = 'Sending…'
+      try {
+        const res = await fetch('/api/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ firstName, lastName, email, phone, loanType }) })
+        if (!res.ok) throw new Error('Server error')
+        formWrap.style.display = 'none'; successMsg.style.display = 'block'
+        setTimeout(() => { window.location.href = 'https://YOUR-PRIMARY-SITE.com' }, 3200)
+      } catch (err) {
+        btn.disabled = false; btn.textContent = 'Find My Best Refi Rate →'
+        alert('Something went wrong. Please try again or call us directly.')
+      }
+    })
+  </script>
+
+</body>
+</html>
