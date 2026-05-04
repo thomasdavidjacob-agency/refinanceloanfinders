@@ -25,5 +25,5 @@ npx vercel --prod
 
 ## Lead Emails
 
-All leads go to `westlinnhomeloans@gmail.com` with subject:
+All leads go to `phuonghaloans@gmail.com` with subject:
 `🏠 New Lead: [Name] — [Loan Type] — refinanceloanfinders.com`
